@@ -1,4 +1,4 @@
-# Author: Jasmine Sandhu jps6818@psu.edu
+# Author: Jasmine Sandhu jps6818@psu.ed
 # Collaborator:Carl Foust czf276@psu.edu
 # Collaborator: Nathan Donahue ndd5167@psu.edu 
 # Collaborator: Nick Orf nco5067@psu.edu
@@ -18,11 +18,11 @@ def getLetterGrade(grade):
   elif ((80.0 <= grade) & (grade < 83.0)):
     return "B-"
   elif ((77.0 <= grade) & (grade < 80.0)):
-    return "B"
+    return "C+"
   elif ((70.0 <= grade) & (grade < 77.0)):
     return "C"
   elif ((60.0 <= grade) & (grade < 70.0)):
-    return "C-"
+    return "D"
   else:
     return "F" 
 
